@@ -1,0 +1,19 @@
+2025-12-31 14:51:18 INFO     save log on ./checkpoints/5x1_discrete/train.log
+2025-12-31 14:53:04 INFO     save log on ./checkpoints/5x1_discrete/train.log
+2025-12-31 14:53:44 INFO     save log on ./checkpoints/5x1_discrete/train.log
+2025-12-31 15:01:02 INFO     save log on ./checkpoints/5x1_discrete/train.log
+2025-12-31 15:10:52 INFO     Train: epoch=1, loss=-0.68737, profit=0.72455, regret=0.0014663, regret_max=0.31926
+2025-12-31 15:10:52 INFO     Train: rho=1, lamb=5.144211769104004, 
+2025-12-31 15:10:52 INFO     save to ./checkpoints/5x1_discrete
+2025-12-31 15:20:40 INFO     Train: epoch=2, loss=-0.74401, profit=0.78568, regret=0.0015953, regret_max=0.43523
+2025-12-31 15:20:40 INFO     Train: rho=6, lamb=5.3022780418396, 
+2025-12-31 15:20:40 INFO     save to ./checkpoints/5x1_discrete
+2025-12-31 17:14:02 INFO     Train: epoch=3, loss=-0.74001, profit=0.77623, regret=0.0012749, regret_max=0.22672
+2025-12-31 17:14:02 INFO     Train: rho=6, lamb=6.059031009674072, 
+2025-12-31 17:14:02 INFO     save to ./checkpoints/5x1_discrete
+2025-12-31 17:24:16 INFO     Train: epoch=4, loss=-0.74538, profit=0.76331, regret=0.00057558, regret_max=0.13239
+2025-12-31 17:24:16 INFO     Train: rho=11, lamb=6.405270576477051, 
+2025-12-31 17:24:16 INFO     save to ./checkpoints/5x1_discrete
+2025-12-31 17:34:27 INFO     Train: epoch=5, loss=-0.74602, profit=0.7603, regret=0.0004301, regret_max=0.073866
+2025-12-31 17:34:27 INFO     Train: rho=11, lamb=6.867386817932129, 
+2025-12-31 17:34:27 INFO     save to ./checkpoints/5x1_discrete

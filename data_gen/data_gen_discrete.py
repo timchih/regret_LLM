@@ -4,7 +4,7 @@ from scipy.stats import truncnorm
 from tqdm import tqdm
 
 def gen(n, m, n_type=10, m_type=10, phase='train', n_data=200000):
-    dir = f'../data_multi/{n_type}t{m_type}t_{n}x{m}/{phase}_{n_data}'
+    dir = f'./data_multi/{n_type}t{m_type}t_{n}x{m}/{phase}_{n_data}'
     if not os.path.exists(dir):
         os.makedirs(dir)
     raw_data = np.zeros((n_data, n, n_type, m, m_type))
@@ -33,9 +33,12 @@ def gen(n, m, n_type=10, m_type=10, phase='train', n_data=200000):
 if __name__ == '__main__':
     seed = 0
     np.random.seed(seed)
-    gen(2, 5, phase='test', n_data=5000)
-    gen(2, 5, phase='training', n_data=int(1e5))
-    gen(3, 10, phase='test', n_data=5000)
-    gen(3, 10, phase='training', n_data=int(2e5))
-    gen(5, 10, phase='test', n_data=5000)
-    gen(5, 10, phase='training', n_data=int(2e5))
+    # gen(2, 5, phase='test', n_data=5000)
+    # gen(2, 5, phase='training', n_data=int(1e5))
+    # gen(3, 10, phase='test', n_data=5000)
+    # gen(3, 10, phase='training', n_data=int(2e5))
+    # gen(5, 10, phase='test', n_data=5000)
+    # gen(5, 10, phase='training', n_data=int(2e5))
+    
+    gen(5, 1, phase='test', n_data=5000)
+    gen(5, 1, phase='training', n_data=int(1e5))

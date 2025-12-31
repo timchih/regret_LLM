@@ -1,0 +1,7 @@
+train:
+/usr/local/bin/python3 CITransNet/main_5x1_d.py --save_dir ./checkpoints/5x1_discrete
+/usr/local/bin/python3 CITransNet/main_5x1_c.py --save_dir ./checkpoints/5x1_continuous
+
+test:
+/usr/local/bin/python3 CITransNet/main_5x1_c.py --test --save_dir ./checkpoints/5x1_continuous
+/usr/local/bin/python3 CITransNet/main_5x1_d.py --test --save_dir ./checkpoints/5x1_discrete
